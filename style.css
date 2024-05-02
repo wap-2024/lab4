@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.half-width {
+    width: 48%;
+    display: inline-block;
+}
+
+.half-width:nth-child(odd) {
+    margin-right: 4%;
+}
+
+.payment-container {
+    margin-top: 20px;
+}
+
+.payment-container input[type="text"] {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+}
+
+.checkbox-group input {
+    margin-top: 10px;
+}
