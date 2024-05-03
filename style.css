@@ -86,3 +86,8 @@ input[type="submit"], input[type="reset"] {
     padding:10px;
     font-weight: bold;
 }
+
+.more-actions::after {
+    content: "\25bc";
+    padding-left: 5px; 
+}
